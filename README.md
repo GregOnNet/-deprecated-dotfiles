@@ -11,7 +11,7 @@ This repository contains configuration-files and small helpers of my cygwin-bash
   | umlaute.sh
 - git/
   | aliases.sh
-  | functions
+  | functions.sh
 - .gitconfig
 - .inputrc
 - .profile
