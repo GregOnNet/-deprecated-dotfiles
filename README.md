@@ -28,7 +28,7 @@ The configuration shown here matches to certain tools you may install if you wan
 
 ## Bring it all together - .profile
 
-The `.profile` sources all files which are located in the directories `git` & `bash`.
+The `.profile` sources all files which are located in the directories `git/` & `bash/`.
 
 ## .gitconfig
 
