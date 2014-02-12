@@ -36,6 +36,24 @@ The `.profile` sources all files which are located in the directories `git/` & `
 
 ## bash/
 
+### paths.sh
+
+In this file I set and export the environment variable `CDPATH` to create shortcuts to direcetories I often use.
+<pre>
+# paths.sh
+
+cdpath=( /devel )
+export CDPATH
+</pre>
+Now *bash* is aware of `/devel` but until now this path leads to nowhere.
+To link `/devel` to a desired directory you have to edit the file `fstab` located in `/cygwin/etc`.
+<pre>
+# /cygwin/etc/fstab
+
+...
+Z:/development /devel ntfs binary, posix=0, noacl 0 0
+</pre>
+The example above shows that `/devel` now points to the directory `Z:/development/`.
 ## git/
 
 ### aliases.sh
