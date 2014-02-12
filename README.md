@@ -42,17 +42,17 @@ This file contains the shortcuts of git commands I use.
 
 | alias         | description                             |
 | ------------- |:----------------------------------------|
-| a             | git add                                 |
-| aa            | git add --all                           |
-| b             | git branch                              |
-| c             | git commit --message                    |
-| ca            | git add --all && git commit --message   |
-| co            | git checkout                            |
-| d             | git diff                                |
-| l             | nice git log                            |
-| m             | git merge                               |
-| r             | git rm                                  |
+| a             | `git add`                               |
+| aa            | `git add --all`                         |
+| b             | `git branch`                            |
+| c             | `git commit --message`                  |
+| ca            | `git add --all && git commit --message` |
+| co            | `git checkout`                          |
+| d             | `git diff`                              |
+| l             | nice git log                          |
+| m             | `git merge`                             |
+| r             | `git rm`                                |
 | reword        | corrects last commit message            |
-| s             | git status                              |
+| s             | `git status`                            |
 
 ## git/
