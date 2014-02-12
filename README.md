@@ -15,6 +15,7 @@ The configuration shown here matches to certain tools you may install if you wan
 <pre>
 .
 - bash/
+  | paths.sh
   | prompt.sh 
   | umlaute.sh
 - git/
