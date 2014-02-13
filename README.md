@@ -26,20 +26,6 @@ The dotfiles are splitted in `bash` and `git` related configurations. They are a
 - .profile
 </pre>
 
-## .gitconfig
-
-### [color.*]
-
-The defined colors help to distinguish between new, modified and deleted files.
-
-### [core.editor]
-
-I configured Sublime 3 as standard text editor handling more complex git operations.
-
-### [diff] & [merge]
-
-[Diffmerge](https://sourcegear.com/diffmerge/) is configured as diff- and mergetool.
-
 ## bash/
 
 ### functions.sh
@@ -109,3 +95,17 @@ This file contains the shortcuts of git commands I use.
 | r             | `git rm`                                |
 | reword        | corrects last commit message            |
 | s             | `git status`                            |
+
+## .gitconfig
+
+### [color.*]
+
+The defined colors help to distinguish between new, modified and deleted files.
+
+### [core.editor]
+
+I configured Sublime 3 as standard text editor handling more complex git operations.
+
+### [diff] & [merge]
+
+[Diffmerge](https://sourcegear.com/diffmerge/) is configured as diff- and mergetool.
