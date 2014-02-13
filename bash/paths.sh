@@ -1,0 +1,3 @@
+cdpath=( /devel )
+
+export CDPATH
