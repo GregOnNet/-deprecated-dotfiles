@@ -25,11 +25,19 @@ The configuration shown here matches to certain tools you may install if you wan
 - .profile
 </pre>
 
-## Bring it all together - .profile
+## .profile - sourcing all you need 
 
 The `.profile` sources all files which are located in the directories `git/` & `bash/`.
 
 ## .gitconfig
+
+### [color.*]
+
+The defined colors help to distinguish between new, modified and deleted files.
+
+### [core.editor]
+
+I configured Sublime 3 as standard text editor handling more complex git operations.
 
 ## bash/
 
