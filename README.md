@@ -22,7 +22,6 @@ The configuration shown here matches to certain tools you may install if you wan
   | aliases.sh
   | functions.sh
 - .gitconfig
-- .inputrc
 - .profile
 </pre>
 
@@ -31,8 +30,6 @@ The configuration shown here matches to certain tools you may install if you wan
 The `.profile` sources all files which are located in the directories `git/` & `bash/`.
 
 ## .gitconfig
-
-## .inputrc
 
 ## bash/
 
