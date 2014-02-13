@@ -16,10 +16,10 @@ The dotfiles are splitted in `bash` and `git` related configurations. They are a
 <pre>
 .
 - bash/
+  | functions.sh
   | paths.sh
   | prompt.sh 
   | umlaute.sh
-  | functions.sh
 - git/
   | aliases.sh
 - .gitconfig
