@@ -39,6 +39,10 @@ The defined colors help to distinguish between new, modified and deleted files.
 
 I configured Sublime 3 as standard text editor handling more complex git operations.
 
+### [diff] & [merge]
+
+[Diffmerge](https://sourcegear.com/diffmerge/) is configured as diff- and mergetool.
+
 ## bash/
 
 ### paths.sh
