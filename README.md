@@ -50,9 +50,9 @@ This file contains additional functions for the bash.
 
 | function      | description                             |
 | ------------- |:----------------------------------------|
-| ui            | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)                                        |
-| up            | gets you to the parent directory        |
-| back          | navigates back in the directory history |
+| `ui`          | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)                                        |
+| `up`          | gets you to the parent directory        |
+| `back`        | navigates back in the directory history |
 
 ### paths.sh
 
