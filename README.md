@@ -8,7 +8,6 @@ The configuration shown here matches to certain tools you may install if you wan
 
 - [Diffmerge](https://sourcegear.com/diffmerge/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
-  - run `ui` when you are in a *repository* to use [Git Extensions](https://code.google.com/p/gitextensions/).
 
 ## Structure
 
@@ -45,9 +44,18 @@ I configured Sublime 3 as standard text editor handling more complex git operati
 
 ## bash/
 
+### functions.sh
+
+| function      | description                             |
+| ------------- |:----------------------------------------|
+| ui            | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)                                        |
+| up            | gets you to the parent directory        |
+| back          | navigates back in the directory history |
+
 ### paths.sh
 
 In this file I set and export the environment variable `CDPATH` to create shortcuts to direcetories I often use.
+
 <pre>
 # paths.sh
 
@@ -56,6 +64,7 @@ export CDPATH
 </pre>
 Now *bash* is aware of `/devel` but until now this path leads to nowhere.
 To link `/devel` to a desired directory you have to edit the file `fstab` located in `/cygwin/etc`.
+
 <pre>
 # /cygwin/etc/fstab
 
