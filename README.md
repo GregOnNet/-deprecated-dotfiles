@@ -73,7 +73,7 @@ This file configures the bash to display the current time, directory and the act
 
 ### umlaute.sh
 
-This file configures the bash to display *ä, ö, ü*
+This file configures the bash to display *ä, ö, ü*.
 
 ## git/
 
