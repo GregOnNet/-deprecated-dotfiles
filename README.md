@@ -91,11 +91,11 @@ This file contains the shortcuts of git commands I use.
 | ca            | `git add --all && git commit --message` |
 | co            | `git checkout`                          |
 | d             | `git diff`                              |
-| l             | nice git log                            |
 | m             | `git merge`                             |
 | r             | `git rm`                                |
-| reword        | corrects last commit message            |
 | s             | `git status`                            |
+| reword        | corrects last commit message            |
+| l             | nice git log                            |
 
 ## .gitconfig
 
