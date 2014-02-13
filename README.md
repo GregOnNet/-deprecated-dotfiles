@@ -6,6 +6,7 @@ This repository contains configuration-files and small helpers of my cygwin-bash
 
 The configuration shown here matches to certain tools you may install if you want to get this stuff running.
 
+- [Cygwin](http://cygwin.com/)
 - [Diffmerge](https://sourcegear.com/diffmerge/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
 
