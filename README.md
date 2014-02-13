@@ -46,6 +46,8 @@ I configured Sublime 3 as standard text editor handling more complex git operati
 
 ### functions.sh
 
+This file contains additional functions for the bash.
+
 | function      | description                             |
 | ------------- |:----------------------------------------|
 | ui            | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)                                        |
