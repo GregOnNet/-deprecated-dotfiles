@@ -11,6 +11,8 @@ The configuration shown here matches to certain tools you may install if you wan
 
 ## Structure
 
+The dotfiles are splitted in `bash` and `git` related configurations. They are all loaded by the `.profile`-file.
+
 <pre>
 .
 - bash/
@@ -23,10 +25,6 @@ The configuration shown here matches to certain tools you may install if you wan
 - .gitconfig
 - .profile
 </pre>
-
-## .profile - sourcing all you need 
-
-The `.profile` sources all files which are located in the directories `git/` & `bash/`.
 
 ## .gitconfig
 
