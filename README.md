@@ -64,6 +64,16 @@ Z:/development /devel ntfs binary, posix=0, noacl 0 0
 </pre>
 The example above shows that `/devel` now points to the directory `Z:/development/`.
 
+### prompt.sh
+
+This file configures the bash to display the current time, directory and the active branch of your git repository.
+
+<pre>
+  # Sample
+
+  23:20:52 devel master$
+</pre>
+
 ### umlaute.sh
 
 This file configures the bash to display *ä, ö, ü*
