@@ -63,6 +63,11 @@ To link `/devel` to a desired directory you have to edit the file `fstab` locate
 Z:/development /devel ntfs binary, posix=0, noacl 0 0
 </pre>
 The example above shows that `/devel` now points to the directory `Z:/development/`.
+
+### umlaute.sh
+
+This file configures the bash to display *ä, ö, ü*
+
 ## git/
 
 ### aliases.sh
