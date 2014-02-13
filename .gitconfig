@@ -39,5 +39,3 @@
       cmd = /cygdrive/c/Program\\ Files/SourceGear/Common/DiffMerge/sgdm_cygwin.sh /merge /result=\"$MERGED\" /p1=\"$LOCAL\" /p2=\"$BASE\" /p3=\"$REMOTE\"
       trustExitCode = true
       keepBackup = false
-[http]
-	proxy = http://www-s9.dienste.telekom.de:8080
