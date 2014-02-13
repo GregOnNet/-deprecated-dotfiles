@@ -59,25 +59,27 @@ This file contains additional functions for the bash.
 In this file I set and export the environment variable `CDPATH` to create shortcuts to direcetories I often use.
 
 <pre>
-# paths.sh
-
-cdpath=( /devel )
-export CDPATH
+  # paths.sh
+  
+  cdpath=( /devel )
+  export CDPATH
 </pre>
+
 Now *bash* is aware of `/devel` but until now this path leads to nowhere.
 To link `/devel` to a desired directory you have to edit the file `fstab` located in `/cygwin/etc`.
 
 <pre>
-# /cygwin/etc/fstab
-
-...
-Z:/development /devel ntfs binary, posix=0, noacl 0 0
+  # /cygwin/etc/fstab
+  
+  ...
+  Z:/development /devel ntfs binary, posix=0, noacl 0 0
 </pre>
+
 The example above shows that `/devel` now points to the directory `Z:/development/`.
 
 ### prompt.sh
 
-This file configures the bash to display the current time, directory and the active branch of your git repository.
+This file configures the bash to display the current time, directory and the active   branch of your git repository.
 
 <pre>
   # Sample
