@@ -17,9 +17,9 @@ The configuration shown here matches to certain tools you may install if you wan
   | paths.sh
   | prompt.sh 
   | umlaute.sh
+  | functions.sh
 - git/
   | aliases.sh
-  | functions.sh
 - .gitconfig
 - .profile
 </pre>
