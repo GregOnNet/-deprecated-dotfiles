@@ -2,6 +2,11 @@
 
 This repository contains `configurations` && `additional functions` extending my cygwin-bash.
 
+<span style="font-family:sergoe-ui;background-color:#101010; padding:4px;">
+  <span style="color:white">14:26:00</span>
+  <span style="color:yellow">~</span>
+  <span style="color:green">repository</span>
+</span>
 ## Prerequisites (recommended)
 
 The configuration shown here matches to certain tools you may install if you want to get this stuff running.
