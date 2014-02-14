@@ -6,30 +6,7 @@ This repository contains `configurations` && `additional functions` extending my
 
 I use bash as shell and generated a prompt showing you additional information if you are in a git repository.
 
-<span style="display:inline-block;width:180px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
-  <span style="color:white">14:26:00</span>
-  <span style="color:yellow">~</span>
-  <span style="color:green">clean-branch</span>
-</span>
-<span style="display:inline-block;width:190px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
-  <span style="color:white">14:27:00</span>
-  <span style="color:yellow">~</span>
-  <span style="color:green">unstaged-files</span>
-  <strong style="color:#B80C07">^</strong>
-</span>
-
-<span style="display:inline-block;width:180px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
-  <span style="color:white">14:28:00</span>
-  <span style="color:yellow">~</span>
-  <span style="color:green">staged-files</span>
-  <strong style="color:#B80C07">+</strong>
-</span>
-<span style="display:inline-block;width:190px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
-  <span style="color:white">14:29:00</span>
-  <span style="color:yellow">~</span>
-  <span style="color:green">modified-files</span>
-  <strong style="color:#B80C07">?</strong>
-</span>
+![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/02/bash-lookfeel.png "bash look&feel")
 
 ## Prerequisites (recommended)
 
