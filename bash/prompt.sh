@@ -15,20 +15,10 @@ function __git_dirty {
   local repo=$(git status)
   local dirty
 
-  if [[ $repo == *'Untracked'* ]]
-  then
-    dirty+="^"
-  fi
-
-  if [[ $repo == *'new file:'* ]]
-  then
-    dirty+="+"
-  fi
-
-  if [[ $repo == *'modified:'* ]]
-  then
-    dirty+="?"
-  fi  
+  [[ $repo == *'Untracked'* ]] && dirty+="^"
+  [[ $repo == *'new file:'* ]] && dirty+="+"
+  [[ $repo == *'modified:'* ]] && dirty+="?"
+  
   echo $dirty
 }
 
