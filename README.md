@@ -115,6 +115,12 @@ quick-git is a rub gem called [git-shizzle](https://github.com/agross/git_shizzl
 | `qc`          | checkout files by index or range             |
 | `qu`          | unstage files by index or range              |
 
+If you are sitting behind a **Proxy-Server** (like me) then you may add the argument `--http-proxy` to get [git-shizzle](https://github.com/agross/git_shizzle) installed. The system variable `Http_Proxy` was not considered in my cygwin-environment. 
+
+<pre>
+  gem install git-shizzle --http-proxy [type-your-proxy-server:port]  
+</pre>
+
 ## .gitconfig
 
 ### [color.*]
