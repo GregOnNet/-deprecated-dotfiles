@@ -1,6 +1,5 @@
 .ssh/
 gitolite-admin/
-git-test/
 .bash_history
 .bash_profile
 .bashrc
