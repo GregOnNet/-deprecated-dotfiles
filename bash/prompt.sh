@@ -11,6 +11,31 @@ function __rvm_prompt {
   fi
 }
 
+function __git_dirty {
+  local repo=$(git status)
+  local dirty
+
+  if [[ $repo == *'Untracked'* ]]
+  then
+    dirty+="^"
+  fi
+
+  if [[ $repo == *'new file:'* ]]
+  then
+    dirty+="+"
+  fi
+
+  if [[ $repo == *'modified:'* ]]
+  then
+    dirty+="?"
+  fi  
+  echo $dirty
+}
+
+function __git_branch {
+  __git_ps1 " %s"
+}
+
 function __git_prompt {
   GIT_PS1_SHOWDIRTYSTATE=1
   [ `git config user.pair` ] && GIT_PS1_PAIR="`git config user.pair`@"
@@ -49,8 +74,7 @@ bash_prompt() {
   # reset
   local RESET="\[\033[0;37m\]"
 
-  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_prompt)$RESET$ "
-
+  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET$ "
 }
 
 bash_prompt
