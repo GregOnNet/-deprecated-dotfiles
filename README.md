@@ -103,15 +103,17 @@ This file contains the shortcuts of git commands I use.
 
 #### quick-git
 
+quick-git is a rub gem called git-shizzle. It contains really confortable console helpers to deal more granular with new or manipulated files.
+
 | alias         | description                                  |
 | ------------- |:---------------------------------------------|
-| `qn`           | track files by index or range                |
-| `qa`           | stage files by index or range                |
-| `qap`          | stage patches by index or range              |
-| `qd`           | diff files by index or range                 |
-| `qdc`          | diff cached (staged) files by index or range |
-| `qc`           | checkout files by index or range             |
-| `qu`           | unstage files by index or range              |
+| `qn`          | track files by index or range                |
+| `qa`          | stage files by index or range                |
+| `qap`         | stage patches by index or range              |
+| `qd`          | diff files by index or range                 |
+| `qdc`         | diff cached (staged) files by index or range |
+| `qc`          | checkout files by index or range             |
+| `qu`          | unstage files by index or range              |
 
 ## .gitconfig
 
