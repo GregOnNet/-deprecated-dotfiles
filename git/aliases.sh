@@ -1,3 +1,4 @@
+# regular git commands
 alias a='git add '
 alias aa='git add --all '
 alias b='git branch '
@@ -10,3 +11,12 @@ alias m='git merge '
 alias r='git rm '
 alias reword='git commit --amend -m'
 alias s='git status'
+
+# quick-git commands
+alias qn='quick-git track'
+alias qa='quick-git stage'
+alias qap='quick-git stage_with_patch'
+alias qd='quick-git diff'
+alias qdc='quick-git diff_cached'
+alias qc='quick-git checkout'
+alias qu='quick-git unstage'
