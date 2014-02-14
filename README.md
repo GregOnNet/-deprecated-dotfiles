@@ -2,7 +2,7 @@
 
 This repository contains configuration-files and small helpers of my cygwin-bash.
 
-## Prerequisites
+## Prerequisites (recommended)
 
 The configuration shown here matches to certain tools you may install if you want to get this stuff running.
 
