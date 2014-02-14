@@ -2,11 +2,35 @@
 
 This repository contains `configurations` && `additional functions` extending my cygwin-bash.
 
-<span style="font-family:sergoe-ui;background-color:#101010; padding:4px;">
+## Look & Feel
+
+I use bash as shell and generated a prompt showing you additional information if you are in a git repository.
+
+<span style="display:inline-block;width:180px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
   <span style="color:white">14:26:00</span>
   <span style="color:yellow">~</span>
-  <span style="color:green">repository</span>
+  <span style="color:green">clean-branch</span>
 </span>
+<span style="display:inline-block;width:190px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
+  <span style="color:white">14:27:00</span>
+  <span style="color:yellow">~</span>
+  <span style="color:green">unstaged-files</span>
+  <strong style="color:#B80C07">^</strong>
+</span>
+
+<span style="display:inline-block;width:180px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
+  <span style="color:white">14:28:00</span>
+  <span style="color:yellow">~</span>
+  <span style="color:green">staged-files</span>
+  <strong style="color:#B80C07">+</strong>
+</span>
+<span style="display:inline-block;width:190px;font-family:sergoe-ui;background-color:#101010; padding:4px;">
+  <span style="color:white">14:29:00</span>
+  <span style="color:yellow">~</span>
+  <span style="color:green">modified-files</span>
+  <strong style="color:#B80C07">?</strong>
+</span>
+
 ## Prerequisites (recommended)
 
 The configuration shown here matches to certain tools you may install if you want to get this stuff running.
