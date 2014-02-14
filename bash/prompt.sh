@@ -12,6 +12,8 @@ function __rvm_prompt {
 }
 
 function __git_dirty {
+  [[ ! -d ".git" ]] && return
+
   local repo=$(git status)
   local dirty
 
