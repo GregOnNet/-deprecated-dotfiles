@@ -36,12 +36,6 @@ function __git_branch {
   __git_ps1 " %s"
 }
 
-function __git_prompt {
-  GIT_PS1_SHOWDIRTYSTATE=1
-  [ `git config user.pair` ] && GIT_PS1_PAIR="`git config user.pair`@"
-  __git_ps1 " $GIT_PS1_PAIR%s" | sed 's/ \([+*]\{1,\}\)$/\1/'
-}
-
 # Only show username@server over SSH.
 function __name_and_server {
   if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
