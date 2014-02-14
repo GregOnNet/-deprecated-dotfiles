@@ -103,7 +103,7 @@ This file contains the shortcuts of git commands I use.
 
 #### quick-git
 
-quick-git is a rub gem called git-shizzle. It contains really confortable console helpers to deal more granular with new or manipulated files.
+quick-git is a rub gem called [git-shizzle](https://github.com/agross/git_shizzle). It contains really confortable console helpers to deal more granular with new or manipulated files.
 
 | alias         | description                                  |
 | ------------- |:---------------------------------------------|
