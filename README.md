@@ -1,6 +1,6 @@
 # Dotfiles
 
-This repository contains configuration-files and small helpers of my cygwin-bash.
+This repository contains `configurations` && `additional functions` extending my cygwin-bash.
 
 ## Prerequisites (recommended)
 
