@@ -7,6 +7,7 @@ This repository contains configuration-files and small helpers of my cygwin-bash
 The configuration shown here matches to certain tools you may install if you want to get this stuff running.
 
 - [Cygwin](http://cygwin.com/)
+- [Sublime Text 3](http://www.sublimetext.com/3)
 - [Diffmerge](https://sourcegear.com/diffmerge/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
 
@@ -35,8 +36,9 @@ This file contains additional functions for the bash.
 
 | function      | description                             |
 | ------------- |:----------------------------------------|
-| `ui`          | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)                                        |
+| `ui`          | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)      |
 | `up`          | gets you to the parent directory        |
+| `st <file>`   | opens [Sublime Text 3](http://www.sublimetext.com/3)                                        |
 | `back`        | navigates back in the directory history |
 
 ### paths.sh
