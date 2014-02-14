@@ -1,5 +1,7 @@
-.ssh/
 gitolite-admin/
+
+.gem/
+.ssh/
 .bash_history
 .bash_profile
 .bashrc
