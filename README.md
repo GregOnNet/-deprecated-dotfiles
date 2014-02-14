@@ -84,6 +84,8 @@ This file configures the bash to display *ä, ö, ü*.
 
 This file contains the shortcuts of git commands I use.
 
+#### regular commands
+
 | alias         | description                             |
 | ------------- |:----------------------------------------|
 | a             | `git add`                               |
@@ -98,6 +100,18 @@ This file contains the shortcuts of git commands I use.
 | s             | `git status`                            |
 | reword        | corrects last commit message            |
 | l             | nice git log                            |
+
+#### quick-git
+
+| alias         | description                                  |
+| ------------- |:---------------------------------------------|
+| `qn`           | track files by index or range                |
+| `qa`           | stage files by index or range                |
+| `qap`          | stage patches by index or range              |
+| `qd`           | diff files by index or range                 |
+| `qdc`          | diff cached (staged) files by index or range |
+| `qc`           | checkout files by index or range             |
+| `qu`           | unstage files by index or range              |
 
 ## .gitconfig
 
