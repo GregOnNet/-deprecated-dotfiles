@@ -53,6 +53,49 @@ The dotfiles are splitted in `aliases` and `bash`-related configurations. They a
 - .profile
 </pre>
 
+## aliases/
+
+### git.sh
+
+This file contains the shortcuts of git commands I use.
+
+#### regular commands
+
+| alias         | description                             |
+| ------------- |:----------------------------------------|
+| `a`           | `git add`                               |
+| `aa`          | `git add --all`                         |
+| `b`           | `git branch`                            |
+| `c`           | `git commit --message`                  |
+| `ca`          | `git add --all && git commit --message` |
+| `co`          | `git checkout`                          |
+| `d`           | `git diff`                              |
+| `m`           | `git merge`                             |
+| `r`           | `git rm`                                |
+| `s`           | `git status`                            |
+| `reword`      | corrects last commit message            |
+| `l`           | nice git log                            |
+
+#### quick-git
+
+quick-git is a rub gem called [git-shizzle](https://github.com/agross/git_shizzle). It contains really confortable console helpers to deal more granular with new or manipulated files.
+
+| alias         | description                                  |
+| ------------- |:---------------------------------------------|
+| `qn`          | track files by index or range                |
+| `qa`          | stage files by index or range                |
+| `qap`         | stage patches by index or range              |
+| `qd`          | diff files by index or range                 |
+| `qdc`         | diff cached (staged) files by index or range |
+| `qc`          | checkout files by index or range             |
+| `qu`          | unstage files by index or range              |
+
+If you are sitting behind a **Proxy-Server** (like me) then you may add the argument `--http-proxy` to get [git-shizzle](https://github.com/agross/git_shizzle) installed. The system variable `Http_Proxy` was not considered in my cygwin-environment. 
+
+<pre>
+  gem install git-shizzle --http-proxy [type-your-proxy-server:port]  
+</pre>
+
 ## bash/
 
 ### functions.sh
@@ -103,49 +146,6 @@ This file configures the bash to display the current time, directory and the act
 ### umlaute.sh
 
 This file configures the bash to display *ä, ö, ü*.
-
-## git/
-
-### aliases.sh
-
-This file contains the shortcuts of git commands I use.
-
-#### regular commands
-
-| alias         | description                             |
-| ------------- |:----------------------------------------|
-| `a`           | `git add`                               |
-| `aa`          | `git add --all`                         |
-| `b`           | `git branch`                            |
-| `c`           | `git commit --message`                  |
-| `ca`          | `git add --all && git commit --message` |
-| `co`          | `git checkout`                          |
-| `d`           | `git diff`                              |
-| `m`           | `git merge`                             |
-| `r`           | `git rm`                                |
-| `s`           | `git status`                            |
-| `reword`      | corrects last commit message            |
-| `l`           | nice git log                            |
-
-#### quick-git
-
-quick-git is a rub gem called [git-shizzle](https://github.com/agross/git_shizzle). It contains really confortable console helpers to deal more granular with new or manipulated files.
-
-| alias         | description                                  |
-| ------------- |:---------------------------------------------|
-| `qn`          | track files by index or range                |
-| `qa`          | stage files by index or range                |
-| `qap`         | stage patches by index or range              |
-| `qd`          | diff files by index or range                 |
-| `qdc`         | diff cached (staged) files by index or range |
-| `qc`          | checkout files by index or range             |
-| `qu`          | unstage files by index or range              |
-
-If you are sitting behind a **Proxy-Server** (like me) then you may add the argument `--http-proxy` to get [git-shizzle](https://github.com/agross/git_shizzle) installed. The system variable `Http_Proxy` was not considered in my cygwin-environment. 
-
-<pre>
-  gem install git-shizzle --http-proxy [type-your-proxy-server:port]  
-</pre>
 
 ## .gitconfig
 
