@@ -12,10 +12,11 @@ function __rvm_prompt {
 }
 
 function __git_dirty {
-  [[ ! -d ".git" ]] && return
-
-  local repo=$(git status)
+  
+  [[ $( git rev-parse --git-dir 2>&1 ) != *'.git' ]] && return
+  
   local dirty
+  local repo=$(git status)
 
   [[ $repo == *'Untracked'* ]] && dirty+="^"
   [[ $repo == *'new file:'* ]] && dirty+="+"
