@@ -58,12 +58,13 @@ The dotfiles are splitted in `bash` and `git` related configurations. They are a
 
 This file contains additional functions for the bash.
 
-| function      | description                             |
-| ------------- |:----------------------------------------|
+| function      | description                                                                                 |
+| ------------- |:--------------------------------------------------------------------------------------------|
 | `ui`          | opens current repository in [Git Extensions](https://code.google.com/p/gitextensions/)      |
-| `up`          | gets you to the parent directory        |
+| `up`          | gets you to the parent directory                                                            |
 | `st <file>`   | opens [Sublime Text 3](http://www.sublimetext.com/3)                                        |
-| `back`        | navigates back in the directory history |
+| `mkcd`        | creates a directory and navigates into it                                                   |
+| `back`        | navigates back in the directory history                                                     |
 
 ### paths.sh
 
