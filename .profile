@@ -5,4 +5,6 @@ source ~/bash/paths.sh
 source ~/bash/prompt.sh
 source ~/bash/umlaute.sh
 
+source ~/aliases/core.sh
+
 source ~/git/aliases.sh
