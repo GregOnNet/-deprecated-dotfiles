@@ -17,6 +17,17 @@ The configuration shown here matches to certain tools you may install if you wan
 - [Diffmerge](https://sourcegear.com/diffmerge/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
 
+## Installation
+
+1. Clone this repository direct into your **home directory**.
+
+<pre>
+  # ~ git clone https://github.com/GregOnNet/dotfiles.git .
+</pre>
+
+2. Run /cygwin/bin/sh.exe --login-i
+3. Have fun.
+
 ## Structure
 
 The dotfiles are splitted in `bash` and `git` related configurations. They are all loaded by the `.profile`-file.
