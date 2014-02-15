@@ -1,6 +1,6 @@
-# Dotfiles
+# .dotfiles
 
-This repository contains `configurations` && `additional functions` extending my cygwin-bash.
+This repository contains `configurations` && `additional functions` extending my cygwin-bash. Do not hesitate to contact me if you have problems with the setup. Fresh new ideas improving the experience of my .dotfiles are welcome as well.
 
 ## Look & Feel
 
