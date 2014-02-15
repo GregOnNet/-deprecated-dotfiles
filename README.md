@@ -17,6 +17,13 @@ The configuration shown here matches to certain tools you may install if you wan
 - [Diffmerge](https://sourcegear.com/diffmerge/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
 
+### installed cygwin-packages
+
+- git, git-completion
+- ruby
+- openssh
+- dos2unix
+
 ## Installation
 
 1. Clone this repository direct into your **home directory**.
