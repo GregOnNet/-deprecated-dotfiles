@@ -55,6 +55,14 @@ The dotfiles are splitted in `aliases` and `bash`-related configurations. They a
 
 ## aliases/
 
+### core.sh
+
+| alias         | description                             |
+| ------------- |:----------------------------------------|
+| `grep`        | colored grep                            |
+| `ls`          | colored directory listing               |
+| `la`          | shows hidden files                      |
+
 ### git.sh
 
 This file contains the shortcuts of git commands I use.
