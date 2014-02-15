@@ -6,6 +6,11 @@ function st {
   "/cygdrive/c/Program Files/Sublime Text 3/sublime_text.exe" `cygpath $1` &
 }
 
+function mkcd {
+  mkdir -p "$@"
+  cd "$@"
+}
+
 function up {
   cd ..
 }
