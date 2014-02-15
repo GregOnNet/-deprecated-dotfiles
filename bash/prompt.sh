@@ -12,9 +12,11 @@ function __git_dirty {
   local repo=$(git status)
 
   [[ $repo == *'Untracked'* ]] && dirty+="^"
-  [[ $repo == *'new file:'* ]] && dirty+="+"
   [[ $repo == *'modified:'* ]] && dirty+="?"
-  
+
+  [[ $repo == *'new file:'* ||
+     $repo == *'Changes to be committed'* ]] && dirty+="+"
+     
   echo $dirty
 }
 
