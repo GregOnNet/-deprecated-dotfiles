@@ -32,7 +32,7 @@ The configuration shown here matches to certain tools you may install if you wan
   # ~ git clone https://github.com/GregOnNet/dotfiles.git .
 </pre>
 
-2. Run /cygwin/bin/sh.exe --login-i
+2. Run `cygwin/bin/sh.exe --login-i`
 3. Have fun.
 
 ## Structure
