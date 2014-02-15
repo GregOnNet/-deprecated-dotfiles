@@ -1,10 +1,3 @@
-# http://blog.bitfluent.com/post/27983389/git-utilities-you-cant-live-without
-# http://superuser.com/questions/31744/how-to-get-git-completion-bash-to-work-on-mac-os-x
-# http://tammersaleh.com/posts/a-better-rvm-bash-prompt
-# https://rvm.beginrescueend.com/workflow/prompt/
-
-# 17:39:15 henrik@Nyx project_dir ree-1.8.7@project master*$ 
-
 function __rvm_prompt {
   if hash rvm-prompt 2>&- ; then
     echo " `rvm-prompt i v g s`"
