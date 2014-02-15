@@ -41,13 +41,14 @@ The dotfiles are splitted in `bash` and `git` related configurations. They are a
 
 <pre>
 .
+- aliases/
+  | core.sh
+  | git.sh
 - bash/
   | functions.sh
   | paths.sh
   | prompt.sh 
   | umlaute.sh
-- git/
-  | aliases.sh
 - .gitconfig
 - .profile
 </pre>
