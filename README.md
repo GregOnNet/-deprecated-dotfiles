@@ -37,7 +37,7 @@ The configuration shown here matches to certain tools you may install if you wan
 
 ## Structure
 
-The dotfiles are splitted in `bash` and `git` related configurations. They are all loaded by the `.profile`-file.
+The dotfiles are splitted in `aliases` and `bash`-related configurations. They are all loaded by the `.profile`-file.
 
 <pre>
 .
