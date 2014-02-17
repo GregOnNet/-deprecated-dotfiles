@@ -6,7 +6,7 @@ function __rvm_prompt {
 
 function __git_dirty {
   
-  [[ $( git rev-parse --git-dir 2>&1 ) != *'.git' ]] && return
+  [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]] && return
   
   local dirty
   local repo=$(git status)
