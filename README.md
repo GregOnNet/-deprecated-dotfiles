@@ -1,6 +1,8 @@
 # .dotfiles
 
-This repository contains `configurations` && `additional functions` extending my cygwin-bash. Do not hesitate to contact me if you have problems with the setup. Fresh new ideas improving the experience of my .dotfiles are welcome as well.
+This repository contains `configurations` && `additional functions` extending my cygwin-bash.
+
+Do not hesitate to contact me if you have problems with the setup. Fresh new ideas improving the experience of my .dotfiles are welcome as well.
 
 ## Look & Feel
 
@@ -86,7 +88,7 @@ This file contains the shortcuts of git commands I use.
 
 #### quick-git
 
-quick-git is a rub gem called [git-shizzle](https://github.com/agross/git_shizzle). It contains really confortable console helpers to deal more granular with new or manipulated files.
+quick-git is a ruby gem called [git-shizzle](https://github.com/agross/git_shizzle). It contains really confortable console helpers to deal more granular with new or manipulated files.
 
 | alias         | description                                  |
 | ------------- |:---------------------------------------------|
@@ -143,7 +145,7 @@ The example above shows that `/devel` now points to the directory `Z:/developmen
 
 ### prompt.sh
 
-This file configures the bash to display the current time, directory and the active   branch of your git repository.
+This file configures the bash to display the current time, directory and the active branch of your git repository.
 
 <pre>
   # Sample
