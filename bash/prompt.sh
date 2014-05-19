@@ -31,6 +31,8 @@ function __git_branch {
 function __name_and_server {
   if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
     echo "`whoami`@`hostname -s` "
+  else
+    echo "`whoami`"
   fi
 }
 
@@ -67,7 +69,7 @@ bash_prompt() {
   # reset
   local RESET="\[\033[0;37m\]\r\n\$(__prompt_terminator)"
 
-  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
+  PS1="$G\$(__name_and_server) $Y\W$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
 }
 
 bash_prompt
