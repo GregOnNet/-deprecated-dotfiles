@@ -41,6 +41,14 @@ function __name_and_server {
   fi
 }
 
+function __prompt_terminator {
+  if [[ $(__is_normal_dir) ]]; then
+    echo "$"
+  else
+    echo "±"
+  fi
+}
+
 bash_prompt() {
 
   # regular colors
@@ -64,7 +72,7 @@ bash_prompt() {
   local BW="\[\033[1;37m\]"
 
   # reset
-  local RESET="\[\033[0;37m\]\r\n±"
+  local RESET="\[\033[0;37m\]\r\n\$(__prompt_terminator)"
 
   PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
 }
