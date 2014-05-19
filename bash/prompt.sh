@@ -4,9 +4,19 @@ function __rvm_prompt {
   fi
 }
 
+
+function __is_normal_dir {
+  if [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]]; then
+    echo 'it is'
+    return 1
+  else
+    return 0
+  fi
+}
+
 function __git_dirty {
   
-  [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]] && return
+  [[ $(__is_normal_dir) ]] && return
   
   local dirty
   local repo=$(git status)
@@ -21,13 +31,21 @@ function __git_dirty {
 }
 
 function __git_branch {
-  __git_ps1 " %s"
+  __git_ps1 " @%s"
 }
 
 # Only show username@server over SSH.
 function __name_and_server {
   if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
     echo "`whoami`@`hostname -s` "
+  fi
+}
+
+function __prompt_terminator {
+  if [[ $(__is_normal_dir) ]]; then
+    echo "$"
+  else
+    echo "±"
   fi
 }
 
@@ -54,9 +72,9 @@ bash_prompt() {
   local BW="\[\033[1;37m\]"
 
   # reset
-  local RESET="\[\033[0;37m\]"
+  local RESET="\[\033[0;37m\]\r\n\$(__prompt_terminator)"
 
-  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET$ "
+  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
 }
 
 bash_prompt
