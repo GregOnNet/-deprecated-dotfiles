@@ -54,9 +54,9 @@ bash_prompt() {
   local BW="\[\033[1;37m\]"
 
   # reset
-  local RESET="\[\033[0;37m\]"
+  local RESET="\[\033[0;37m\]\r\n±"
 
-  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET$ "
+  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
 }
 
 bash_prompt
