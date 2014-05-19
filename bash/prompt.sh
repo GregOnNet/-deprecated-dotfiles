@@ -4,9 +4,19 @@ function __rvm_prompt {
   fi
 }
 
+
+function __is_normal_dir {
+  if [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]]; then
+    echo 'it is'
+    return 1
+  else
+    return 0
+  fi
+}
+
 function __git_dirty {
   
-  [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]] && return
+  [[ $(__is_normal_dir) ]] && return
   
   local dirty
   local repo=$(git status)
