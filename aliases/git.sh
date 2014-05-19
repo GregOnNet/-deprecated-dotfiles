@@ -11,6 +11,7 @@
   alias preview='git diff --cached'
   alias r='git rm '
   alias reword='git commit --amend -m'
+  alias review='git log --online -1 --patch'
   alias s='git status'
 
 # quick-git commands
