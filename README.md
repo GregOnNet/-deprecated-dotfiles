@@ -71,22 +71,23 @@ This file contains the shortcuts of git commands I use.
 
 #### regular commands
 
-| alias         | description                                                     |
-| ------------- |:----------------------------------------------------------------|
-| `a`           | `git add`                                                       |
-| `aa`          | `git add --all`                                                 |
-| `b`           | `git branch`                                                    |
-| `c`           | `git commit --message`                                          |
-| `ca`          | `git add --all && git commit --message`                         |
-| `co`          | `git checkout`                                                  |
-| `d`           | `git diff`                                                      |
-| `preview`     | displays diff between index and local history (commited stuff)  |
-| `m`           | `git merge`                                                     |
-| `r`           | `git rm`                                                        |
-| `s`           | `git status`                                                    |
-| `reword`      | corrects last commit message                                    |
-| `review`      | displays changes of last commit                                 |
-| `l`           | nice git log                                                    |
+| alias         | description                                                                                                     |
+| ------------- |:----------------------------------------------------------------------------------------------------------------|
+| `a`           | `git add`                                                                                                       |
+| `aa`          | `git add --all`                                                                                                 |
+| `b`           | `git branch`                                                                                                    |
+| `c`           | `git commit --message`                                                                                          |
+| `ca`          | `git add --all && git commit --message`                                                                         |
+| `co`          | `git checkout`                                                                                                  |
+| `d`           | `git diff`                                                                                                      |
+| `l`           | nice git log                                                                                                    |
+| `m`           | `git merge`                                                                                                     |
+| `preview`     | displays diff between index and local history (commited stuff)                                                  |
+| `r`           | `git rm`                                                                                                        |
+| `reword`      | corrects last commit message                                                                                    |
+| `review`      | displays changes of last commit                                                                                 |
+| `s`           | `git status`                                                                                                    |
+| `some`        | `some [1-99]` creates random commits for testing (!requires [git-some](https://github.com/GROSSWEBER/git-some)) |
 
 #### quick-git
 
