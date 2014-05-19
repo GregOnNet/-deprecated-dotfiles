@@ -1,6 +1,6 @@
 [user]
        name = Gregor Woiwode
-       email = gregor.woiwode@o-s.de
+	email = gregor.woiwode@gmail.com
 [core]
        editor = /cygdrive/c/Program\\ Files/Sublime\\ Text\\ 3/sublime_text.exe --new-window --wait \"$(cygpath --windows --absolute \"$1\")\"
 [i18n]
