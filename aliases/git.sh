@@ -22,3 +22,6 @@
   alias qdc='quick-git diff_cached'
   alias qc='quick-git checkout'
   alias qu='quick-git unstage'
+
+# git-some
+  alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh' 
