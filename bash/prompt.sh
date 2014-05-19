@@ -1,10 +1,3 @@
-function __rvm_prompt {
-  if hash rvm-prompt 2>&- ; then
-    echo " `rvm-prompt i v g s`"
-  fi
-}
-
-
 function __is_normal_dir {
   if [[ $( git rev-parse --git-dir 2>&1 ) == 'fatal: Not a git repository'* ]]; then
     echo 'it is'
@@ -74,7 +67,7 @@ bash_prompt() {
   # reset
   local RESET="\[\033[0;37m\]\r\n\$(__prompt_terminator)"
 
-  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__rvm_prompt)$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
+  PS1="\t $BY\$(__name_and_server)$Y\W$G\$(__git_branch)$BR\$(__git_dirty)$RESET "
 }
 
 bash_prompt
