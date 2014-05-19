@@ -31,7 +31,7 @@ function __git_dirty {
 }
 
 function __git_branch {
-  __git_ps1 " %s"
+  __git_ps1 " @%s"
 }
 
 # Only show username@server over SSH.
