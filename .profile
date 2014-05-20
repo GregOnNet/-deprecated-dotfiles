@@ -2,6 +2,7 @@
 
 source ~/bash/functions.sh
 source ~/bash/paths.sh
+source ~/bash/git-prompt.sh
 source ~/bash/prompt.sh
 source ~/bash/umlaute.sh
 
