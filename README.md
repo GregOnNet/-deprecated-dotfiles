@@ -49,6 +49,7 @@ The dotfiles are splitted in `aliases` and `bash`-related configurations. They a
 - bash/
   | functions.sh
   | paths.sh
+  | git-prompt.sh
   | prompt.sh 
   | umlaute.sh
 - .gitconfig
@@ -145,6 +146,9 @@ To link `/devel` to a desired directory you have to edit the file `fstab` locate
 </pre>
 
 The example above shows that `/devel` now points to the directory `Z:/development/`.
+
+### git-prompt.sh
+Provides __git_PS1 providing information about the current branch. This enables prompt.sh to display additional information about your repository.
 
 ### prompt.sh
 
