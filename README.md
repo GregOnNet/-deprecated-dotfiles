@@ -8,7 +8,13 @@ Do not hesitate to contact me if you have problems with the setup. Fresh new ide
 
 I use bash as shell and generated a prompt showing you additional information if you are in a git repository.
 
-![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/02/bash-lookfeel.png "bash look&feel")
+![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/05/bash.png "bash look&feel")
+
+![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/05/untracked.png "untracked content")
+
+![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/05/staged.png "staged content")
+
+![bash look&feel](http://www.woiwode.info/blog/wp-content/uploads/2014/05/modified.png "modified content")
 
 ## Prerequisites (recommended)
 
