@@ -84,11 +84,12 @@ This file contains the shortcuts of git commands I use.
 | `aa`          | `git add --all`                                                                                                 |
 | `b`           | `git branch`                                                                                                    |
 | `c`           | `git commit --message`                                                                                          |
-| `ca`          | `git add --all && git commit --message`                                                                         |
+| `ca`          | `git commit --amend -C HEAD`                                                                         |
 | `co`          | `git checkout`                                                                                                  |
 | `d`           | `git diff`                                                                                                      |
 | `l`           | nice git log                                                                                                    |
 | `m`           | `git merge`                                                                                                     |
+| `mt`          | `git mergetool`                                                                                                 |
 | `preview`     | displays diff between index and local history (commited stuff)                                                  |
 | `r`           | `git rm`                                                                                                        |
 | `reword`      | corrects last commit message                                                                                    |
