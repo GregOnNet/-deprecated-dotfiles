@@ -8,6 +8,7 @@
   alias d='git diff '
   alias l='git log --graph --pretty=oneline --abbrev-commit --decorate --branches --all'
   alias m='git merge '
+  alias mt='git mergetool'
   alias preview='git diff --cached'
   alias r='git rm '
   alias reword='git commit --amend -m'
