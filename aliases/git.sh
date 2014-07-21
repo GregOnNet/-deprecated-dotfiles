@@ -3,7 +3,7 @@
   alias aa='git add --all '
   alias b='git branch '
   alias c='git commit --message '
-  alias ca='git add --all && git commit --message '
+  alias ca='git commit --amend -C HEAD'
   alias co='git checkout '
   alias d='git diff '
   alias l='git log --graph --pretty=oneline --abbrev-commit --decorate --branches --all'
