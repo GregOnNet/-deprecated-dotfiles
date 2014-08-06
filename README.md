@@ -34,14 +34,17 @@ The configuration shown here matches to certain tools you may install if you wan
 
 ## Installation
 
-1. Clone this repository direct into your **home directory**.
-
 <pre>
   # ~ git clone https://github.com/GregOnNet/dotfiles.git .
 </pre>
 
-2. Run `cygwin/bin/sh.exe --login -i`
-3. Have fun.
+1. Clone this repository direct into your **home directory**. 
+2. Well, ok. This is too easy. :smile: 
+3. Assuming that you have other stuff in your home directory, it is better to clone this reposotory into a own folder. 
+4. But than just copy the content (including  the `.git/`-Directory!) into your home directory. 
+   - It is easy but also functional.
+   - Besidesyou have a versioning over your configuration-files.
+5. Finally run `cygwin/bin/sh.exe --login -i`
 
 ## Structure
 
