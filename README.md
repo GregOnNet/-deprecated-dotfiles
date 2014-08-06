@@ -43,7 +43,7 @@ The configuration shown here matches to certain tools you may install if you wan
 3. Assuming that you have other stuff in your home directory, it is better to clone this reposotory into a own folder. 
 4. But than just copy the content (including  the `.git/`-Directory!) into your home directory. 
    - It is easy but also functional.
-   - Besidesyou have a versioning over your configuration-files.
+   - Besides you have a versioning over your configuration-files.
 5. Finally run `cygwin/bin/sh.exe --login -i`
 
 ## Structure
