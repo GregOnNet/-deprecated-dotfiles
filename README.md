@@ -165,7 +165,7 @@ I configured Sublime 3 as standard text editor handling more complex git operati
 
 ## Nice to know - cygwins fstab
 
-@agross has shown me a really nice feature of cygwin. You can find a file called `fstab` in  `/cygwin/etc/`. There you can define shortcuts for preferred directories you use most.
+[@agross](https://github.com/agross) has shown me a really nice feature of cygwin. You can find a file called `fstab` in  `/cygwin/etc/`. There you can define shortcuts for preferred directories you use most.
 
 <pre>
   # /cygwin/etc/fstab
