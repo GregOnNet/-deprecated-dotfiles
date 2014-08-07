@@ -57,7 +57,6 @@ The dotfiles are splitted in `aliases` and `bash`-related configurations. They a
   | git.sh
 - bash/
   | functions.sh
-  | paths.sh
   | git-prompt.sh
   | prompt.sh 
   | umlaute.sh
@@ -134,29 +133,6 @@ This file contains additional functions for the bash.
 | `mkcd`        | creates a directory and navigates into it                                                   |
 | `back`        | navigates back in the directory history                                                     |
 
-### paths.sh
-
-In this file I set and export the environment variable `CDPATH` to create shortcuts to direcetories I often use.
-
-<pre>
-  # paths.sh
-  
-  cdpath=( /devel )
-  export CDPATH
-</pre>
-
-Now *bash* is aware of `/devel` but until now this path leads to nowhere.
-To link `/devel` to a desired directory you have to edit the file `fstab` located in `/cygwin/etc`.
-
-<pre>
-  # /cygwin/etc/fstab
-  
-  ...
-  Z:/development /devel ntfs binary, posix=0, noacl 0 0
-</pre>
-
-The example above shows that `/devel` now points to the directory `Z:/development/`.
-
 ### git-prompt.sh
 Provides __git_PS1 providing information about the current branch. This enables prompt.sh to display additional information about your repository.
 
@@ -187,3 +163,17 @@ I configured Sublime 3 as standard text editor handling more complex git operati
 ### [diff] & [merge]
 
 [Diffmerge](https://sourcegear.com/diffmerge/) is configured as diff- and mergetool.
+
+## Nice to know - cygwins fstab
+
+@agross has shown me a really nice feature of cygwin. You can find a file called `fstab` in  `/cygwin/etc/`. There you can define shortcuts for preferred directories you use most.
+
+<pre>
+  # /cygwin/etc/fstab
+  
+  ...
+  Z:/development /devel ntfs binary, posix=0, noacl 0 0
+</pre>
+
+The example above shows that `/devel` now points to the directory `Z:/development/`.
+Now you can `cd /devel` to open up `Z:/development/`.
