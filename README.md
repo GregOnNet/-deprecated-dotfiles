@@ -138,12 +138,11 @@ Provides __git_PS1 providing information about the current branch. This enables 
 
 ### prompt.sh
 
-This file configures the bash to display the current time, directory and the active branch of your git repository.
+This file configures the bash to display the current user, directory and the active branch of your git repository.
 
 <pre>
-  # Sample
-
-  23:20:52 devel master$
+  user ~ @master
+  ±
 </pre>
 
 ### umlaute.sh
