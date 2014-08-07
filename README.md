@@ -175,4 +175,4 @@ I configured Sublime 3 as standard text editor handling more complex git operati
 </pre>
 
 The example above shows that `/devel` now points to the directory `Z:/development/`.
-Now you can `cd /devel` to open up `Z:/development/`.
+Now you can type `cd /devel` to open up `Z:/development/`.
