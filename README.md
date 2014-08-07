@@ -1,4 +1,33 @@
-# .dotfiles
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- Generated with [DocToc](http://doctoc.herokuapp.com/) -->
+
+# Contents
+
+- [Intro](#dotfiles)
+  - [Look & Feel](#look-&-feel)
+  - [Prerequisites (recommended)](#prerequisites-recommended)
+    - [installed cygwin-packages](#installed-cygwin-packages)
+  - [Installation](#installation)
+  - [Structure](#structure)
+  - [aliases/](#aliases)
+    - [core.sh](#coresh)
+    - [git.sh](#gitsh)
+      - [regular commands](#regular-commands)
+      - [quick-git](#quick-git)
+  - [bash/](#bash)
+    - [functions.sh](#functionssh)
+    - [git-prompt.sh](#git-promptsh)
+    - [prompt.sh](#promptsh)
+    - [umlaute.sh](#umlautesh)
+  - [.gitconfig](#gitconfig)
+    - [[color.*]](#color)
+    - [[core.editor]](#coreeditor)
+    - [[diff & merge]](#diff-&-merge)
+  - [Nice to know - cygwins fstab](#nice-to-know---cygwins-fstab)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Intro
 
 This repository contains `configurations` && `additional functions` extending my cygwin-bash.
 
@@ -159,7 +188,7 @@ The defined colors help to distinguish between new, modified and deleted files.
 
 I configured Sublime 3 as standard text editor handling more complex git operations.
 
-### [diff] & [merge]
+### [diff & merge]
 
 [Diffmerge](https://sourcegear.com/diffmerge/) is configured as diff- and mergetool.
 
