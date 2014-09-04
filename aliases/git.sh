@@ -1,4 +1,4 @@
-# regular git commands
+# regular commands
   alias a='git add '
   alias aa='git add --all '
   alias b='git branch '
@@ -15,6 +15,7 @@
   alias review='git log --oneline -1 --patch'
   alias s='git status'
 
+# handle ignored files
   alias ignore='git update-index --assume-unchanged'
   alias ignored="git ls-files -v | env --unset=GREP_OPTIONS grep --perl-regexp '^[a-z]\s' | cut --delimiter=' ' --fields=2-"
   alias unignore='git update-index --no-assume-unchanged'
