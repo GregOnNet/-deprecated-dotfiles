@@ -16,6 +16,7 @@ function __git_dirty {
 
   [[ $repo == *'Untracked'* ]] && dirty+="^"
   [[ $repo == *'modified:'* ]] && dirty+="?"
+  [[ $repo == *'deleted:'* ]] && dirty+="-"
 
   [[ $repo == *'new file:'* ||
      $repo == *'Changes to be committed'* ]] && dirty+="+"
