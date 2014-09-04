@@ -115,7 +115,7 @@ This file contains the shortcuts of git commands I use.
 | `aa`          | `git add --all`                                                                                                 |
 | `b`           | `git branch`                                                                                                    |
 | `c`           | `git commit --message`                                                                                          |
-| `ca`          | `git commit --amend -C HEAD`                                                                         |
+| `ca`          | `git commit --amend -C HEAD`                                                                                    |
 | `co`          | `git checkout`                                                                                                  |
 | `d`           | `git diff`                                                                                                      |
 | `l`           | nice git log                                                                                                    |
@@ -127,6 +127,9 @@ This file contains the shortcuts of git commands I use.
 | `review`      | displays changes of last commit                                                                                 |
 | `s`           | `git status`                                                                                                    |
 | `some`        | `some [1-99]` creates random commits for testing (!requires [git-some](https://github.com/GROSSWEBER/git-some)) |
+| `ignore`      | ignores changes on a certain file `ignore <file>`                                                               |
+| `ignored`     | displays all ignored files                                                                                      |
+| `unignore`    | tracks changes of an ignored file again `unignore <file>`                                                       |
 
 #### quick-git
 
