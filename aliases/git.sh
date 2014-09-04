@@ -15,6 +15,10 @@
   alias review='git log --oneline -1 --patch'
   alias s='git status'
 
+  alias ignore='git update-index --assume-unchanged'
+  alias ignored="git ls-files -v | env --unset=GREP_OPTIONS grep --perl-regexp '^[a-z]\s' | cut --delimiter=' ' --fields=2-"
+  alias unignore='git update-index --no-assume-unchanged'
+
 # quick-git commands
   alias qn='quick-git track'
   alias qa='quick-git stage'
