@@ -3,6 +3,7 @@
 	email = gregor.woiwode@gmail.com
 [core]
        editor = /cygdrive/c/Program\\ Files/Sublime\\ Text\\ 3/sublime_text.exe --new-window --wait \"$(cygpath --windows --absolute \"$1\")\"
+	autocrlf = false
 [i18n]
        commitencoding = UTF-8
        logoutputencoding = UTF-8
