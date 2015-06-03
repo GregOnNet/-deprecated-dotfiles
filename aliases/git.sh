@@ -20,5 +20,14 @@
   alias ignored="git ls-files -v | env --unset=GREP_OPTIONS grep --perl-regexp '^[a-z]\s' | cut --delimiter=' ' --fields=2-"
   alias unignore='git update-index --no-assume-unchanged'
 
+# quick-git commands
+  alias qn='git qn'
+  alias qa='git qa'
+  alias qap='git qap'
+  alias qd='git qd'
+  alias qdc='git qdc'
+  alias qc='git qc'
+  alias qu='git qu'
+
 # git-some
   alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh' 
