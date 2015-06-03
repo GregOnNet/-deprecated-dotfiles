@@ -7,3 +7,4 @@ gitolite-admin/
 .bashrc
 .inputrc
 git-packages/
+bin/
