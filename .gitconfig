@@ -41,5 +41,5 @@
       trustExitCode = true
       keepBackup = false
 [rerere]
-	enabled = true
+	  enabled = true
       autoupdate = true
