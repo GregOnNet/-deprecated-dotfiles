@@ -43,11 +43,3 @@
 [rerere]
 	  enabled = true
       autoupdate = true
-[alias]
-	qn  = !ruby ~/bin/quick-git track
-	qa  = !ruby ~/bin/quick-git stage
-	qap = !ruby ~/bin/quick-git stage_with_patch
-	qd  = !ruby ~/bin/quick-git diff
-	qdc = !ruby ~/bin/quick-git diff_cached
-	qc =  !ruby ~/bin/quick-git checkout
-	qu =  !ruby ~/bin/quick-git unstage
