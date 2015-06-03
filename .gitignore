@@ -5,6 +5,7 @@ gitolite-admin/
 .bash_history
 .bash_profile
 .bashrc
+.gemrc
 .inputrc
 
 git-packages/
