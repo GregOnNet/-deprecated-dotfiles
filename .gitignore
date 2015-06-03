@@ -6,5 +6,7 @@ gitolite-admin/
 .bash_profile
 .bashrc
 .inputrc
+
 git-packages/
-bin/
+
+aliases/cid.sh
