@@ -30,4 +30,7 @@
   alias qu='quick-git unstage'
 
 # git-some
-  alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh' 
+  alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh'
+
+# prefix commit with custom message
+  alias woi='workOnIssue '
