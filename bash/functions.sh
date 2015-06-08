@@ -31,7 +31,7 @@ function workOnIssue() {
     # in the global .gitconfig.
     # It will be read by the hook to set the prefix
     # in front of the commit message.
-    `git config --global prefix.commitMessage `"$PREFIX"`
+    `git config --global prefix.commitMessage "$PREFIX"`
     printf "\r\n${BOLD_WHITE}Prefixing enabled${RESET_COLOR}\r\n";
     printf "Make sure enabling the prepare-commit-msg hook\r\n"
     printf "in your repsitory: http://git.io/vITez\r\n\r\n"
