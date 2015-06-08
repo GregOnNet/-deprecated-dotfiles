@@ -38,7 +38,7 @@ function workOnIssue() {
   else
     # If no prefix is passed the prefix will be
     # removed from the global .gitconfig.
-    `git config --global --unset prefix.commitMessage`
+    `git config --global prefix.commitMessage ""`
     printf "\r\n${BOLD_WHITE}Prefixing disabled${RESET_COLOR}\r\n\r\n";
   fi
 
