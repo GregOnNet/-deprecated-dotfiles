@@ -1,9 +1,9 @@
 [user]
        name = Gregor Woiwode
-	email = gregor.woiwode@gmail.com
+	     email = gregor.woiwode@gmail.com
 [core]
        editor = /cygdrive/c/Program\\ Files/Sublime\\ Text\\ 3/sublime_text.exe --new-window --wait \"$(cygpath --windows --absolute \"$1\")\"
-	autocrlf = false
+       autocrlf = true
 [i18n]
        commitencoding = UTF-8
        logoutputencoding = UTF-8
@@ -14,9 +14,9 @@
        ui = auto
        wtf = true
 [color "diff"]
-	   old = bold red
-	   new = bold green
-	   meta = bold yellow
+	     old = bold red
+	     new = bold green
+	     meta = bold yellow
 [color "branch"]
        current = black green
        local = bold green
@@ -37,9 +37,9 @@
 [difftool "diffmerge"]
        cmd = /cygdrive/c/Program\\ Files/SourceGear/Common/DiffMerge/sgdm_cygwin.sh /p1=\"$LOCAL\" /p2=\"$REMOTE\"
 [mergetool "diffmerge"]
-      cmd = /cygdrive/c/Program\\ Files/SourceGear/Common/DiffMerge/sgdm_cygwin.sh /merge /result=\"$MERGED\" /p1=\"$LOCAL\" /p2=\"$BASE\" /p3=\"$REMOTE\"
-      trustExitCode = true
-      keepBackup = false
+       cmd = /cygdrive/c/Program\\ Files/SourceGear/Common/DiffMerge/sgdm_cygwin.sh /merge /result=\"$MERGED\" /p1=\"$LOCAL\" /p2=\"$BASE\" /p3=\"$REMOTE\"
+       trustExitCode = true
+       keepBackup = false
 [rerere]
-	  enabled = true
+	    enabled = true
       autoupdate = true
