@@ -8,4 +8,6 @@ source ~/bash/umlaute.sh
 source ~/aliases/core.sh
 source ~/aliases/git.sh
 
+source ~/extensions/rapid-git.sh
+
 [[ -s "${HOME}/aliases/cid.sh" ]] && source "${HOME}/aliases/cid.sh"
