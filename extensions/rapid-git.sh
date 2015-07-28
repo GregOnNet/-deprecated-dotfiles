@@ -345,8 +345,8 @@ function rapid {
 				branches=$(git branch)
 			fi
 
-			branches=$(sed = <<< "$branches" | sed '{N;s/\n/ /}' | sed -e 's/^\([1-9][0-9]*\)  *\(.*\)/\2 \(\1\)/' | sed -n "s/^/  /;s/^  \*/$CYAN>$WHITE/;p" | sed -r "s/\([1-9][0-9]*\)$/$YELLOW&$WHITE/" )
-			printf "$branches"
+			branches=$(sed = <<< "$branches" | sed '{N;s/\n/ /}' | sed -e 's/^\([1-9][0-9]*\)  *\(.*\)/\2 \(\1\)/' | sed -nr "s/^/  /;s/^  \*/$CYAN>$WHITE/;s/\([1-9][0-9]*\)$/$YELLOW&$WHITE/;p" )
+			printf "$branches\r\n"
 
 		fi
 	}
@@ -397,3 +397,15 @@ function rapid {
 	unset -f __rapid__rebase
 	unset -f __rapid__branch
 }
+
+# rapid-git commands
+  alias rt='rapid track'
+  alias ra='rapid stage'
+  alias ru='rapid unstage'
+  alias rdr='rapid drop'
+  alias rr='rapid remove'
+  alias rd='rapid diff'
+  alias rco='rapid checkout'
+  alias rm='rapid merge'
+  alias rre='rapid rebase'
+  alias rb='rapid branch'
