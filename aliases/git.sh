@@ -20,14 +20,17 @@
   alias ignored="git ls-files -v | env --unset=GREP_OPTIONS grep --perl-regexp '^[a-z]\s' | cut --delimiter=' ' --fields=2-"
   alias unignore='git update-index --no-assume-unchanged'
 
-# quick-git commands
-  alias qn='quick-git track'
-  alias qa='quick-git stage'
-  alias qap='quick-git stage_with_patch'
-  alias qd='quick-git diff'
-  alias qdc='quick-git diff_cached'
-  alias qc='quick-git checkout'
-  alias qu='quick-git unstage'
+# rapid-git commands
+  alias rt='rapid track'
+  alias ra='rapid stage'
+  alias ru='rapid unstage'
+  alias rdr='rapid drop'
+  alias rr='rapid remove'
+  alias rd='rapid diff'
+  alias rco='rapid checkout'
+  alias rm='rapid merge'
+  alias rre='rapid rebase'
+  alias rb='rapid branch'
 
 # git-some
   alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh'
