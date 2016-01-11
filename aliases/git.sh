@@ -1,6 +1,7 @@
 # regular commands
   alias a='git add '
   alias aa='git add --all '
+  alias aac='git add --all && git commit -m '
   alias b='git branch '
   alias c='git commit --message '
   alias ca='git commit --amend -C HEAD'
@@ -11,9 +12,12 @@
   alias mt='git mergetool'
   alias preview='git diff --cached'
   alias r='git rm '
+  alias rec='git rebase --continue'
   alias reword='git commit --amend -m'
   alias review='git log --oneline -1 --patch'
   alias s='git status'
+  alias tidy='git clean -f'
+  alias wip='git reset --hard'
 
 # handle ignored files
   alias ignore='git update-index --assume-unchanged'
