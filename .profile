@@ -9,6 +9,6 @@ source ~/aliases/core.sh
 source ~/aliases/git.sh
 source ~/aliases/ruby.sh
 
-source ~/extensions/rapid-git.sh
+source ~/extensions/rapid-git/rapid-git.sh
 
 [[ -s "${HOME}/aliases/cid.sh" ]] && source "${HOME}/aliases/cid.sh"
