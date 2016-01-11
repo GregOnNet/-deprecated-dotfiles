@@ -21,16 +21,16 @@
   alias unignore='git update-index --no-assume-unchanged'
 
 # rapid-git commands
-  alias rt='rapid track'
-  alias ra='rapid stage'
-  alias ru='rapid unstage'
+  alias qn='rapid track'
+  alias qa='rapid stage'
+  alias qu='rapid unstage'
   alias rdr='rapid drop'
-  alias rr='rapid remove'
-  alias rd='rapid diff'
-  alias rco='rapid checkout'
-  alias rm='rapid merge'
-  alias rre='rapid rebase'
-  alias rb='rapid branch'
+  alias qr='rapid remove'
+  alias qd='rapid diff'
+  alias qco='rapid checkout'
+  alias qm='rapid merge'
+  alias qre='rapid rebase'
+  alias qb='rapid branch'
 
 # git-some
   alias some='/home/Gregor/aliases/git-packages/git-some/git-some.sh'
